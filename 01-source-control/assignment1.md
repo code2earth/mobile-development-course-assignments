@@ -5,3 +5,5 @@
 4. Push your changes to back to your GitHub repo.
 Pizza would be nice
 Taco Bell 4th meal will work
+Completed assignment
+uark_master
