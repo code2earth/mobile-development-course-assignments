@@ -1,5 +1,5 @@
-<html>
 <head>
+  <h3>Savings Calculator<h3>
   <style>
     /* Defines a cleaner look for tables */
     table  { border-collapse: collapse; }
@@ -9,5 +9,18 @@
   <script type="text/javascript" src="main.js" ></script>
 </head>
 <body>
+  <p>
+    Starting Amount: <input type="text" id="amount" />
+  </p>
+  <p>
+   Rate of return (percent): <input type="text" id="rate" />
+  </p>
+  <p>
+   Years: <input type="text" id="years" />
+  </p>
+  <input type="button" value="Calculate" onclick="calculate()" />
+  <input type="button" value="Reset" onclick="reset()" />
+  <p id="results_table">
+  </p> 
 </body>
 </html>
